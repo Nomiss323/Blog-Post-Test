@@ -12,24 +12,24 @@ body {
 
 #Container {
     position: relative;
-    padding: 20px;
-    height: 450px;
+    padding: 30px;
+    height: 460px;
     width: 300px;
     background-color: white;
     border: 1px solid black;
     border-radius: 5%;
-    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2)
 
+    
 }
 
 
 #Container::before {
     content: '';
     position: absolute;
-    top: 10px; 
+    top: 20px; 
     left: 10px; 
-    height: 490px; 
-    width: 340px; 
+    height: 510px; 
+    width: 360px; 
     background-color: black; 
     border-radius: 5%; 
     z-index: -1; 
@@ -44,6 +44,25 @@ body {
     width: 100%;
     height: auto;
 
+}
+
+
+.imgtw {
+    
+    margin-top: 0px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+
+
+}
+
+
+.imgtw h4{
+    white-space: nowrap; 
+    font-weight: 800;
 }
 
 .boxed {
@@ -77,3 +96,4 @@ body {
     color: hsl(0, 0%, 42%);
 
 }
+
